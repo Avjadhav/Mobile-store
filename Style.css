@@ -1,0 +1,223 @@
+
+/*Home Page */
+#more {display: none;}
+.Menu{
+		background-color: #35424a;
+		overflow: hidden;
+		border-bottom: orange 3px solid;
+		position: fixed;
+		width: 100%;
+		top: 0;
+
+}
+.Menu a{
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 18px;
+}
+.Menu label{
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.Menu a:hover{
+	background-color: grey;
+
+}
+
+.s[type=text]{
+	border:1px solid #ccc; 
+	float: right;
+	padding: 6px;
+	border: none;
+	margin-top: 8px;
+	margin-right: 16px;
+	font-size: 17px;
+}
+.b
+{
+	border:1px solid #ccc; 
+	float: right;
+	padding: 6px;
+	border: none;
+	margin-top: 8px;
+	margin-right: 16px;
+	font-size: 17px;
+}
+
+
+.box-item{
+	float: left;
+	display: block;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding:5px;
+	width:300px;
+	height: 420px;
+	
+}
+
+.box-item img{
+	
+	border-radius: 4px;
+	padding-top: 10px;
+	padding-left: 10px;
+	width:280px;
+	height: 300px;
+}
+.box-item button{
+	background-color: grey;
+	width: 75px;
+	color: white;
+	height: 25px;
+	border-radius: 100px;
+	cursor:pointer;
+
+}
+
+/*Slideshow code*/
+.slider{
+	width: 100%;
+	margin: 2em auto;
+}
+.slider-wrapper{
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+.slide{
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+.slider-wrapper > .slide:first-child{
+	opacity: 1;
+}
+
+/*admin panel*/
+.Container{
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+.Container input{
+	width: 95%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+.Container input[type=submit]{
+	background-color: green;
+	width: 25%;
+	color: white;
+	padding: 12px;
+	border-radius: 100px;
+	cursor:pointer;
+	float: left;
+}
+.Container input[type=reset]{
+	background-color: red;
+	width: 25%;
+	color: white;
+	padding: 12px;
+	border-radius: 100px;
+	cursor:pointer;
+	float: left;
+}
+
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.label{
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+
+/*Registration Page*/
+.square-cont{
+	text-align: center;
+	justify-content: center;
+}
+.square{
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
+.bl{
+	background-color: blue;
+}
+
+/*Profile*/
+.profile-box{
+	width: 43%;
+	height: auto;
+	border: 1px solid black ;
+	margin-left: 30%;
+	margin-top: 20px;
+}
+.profile-box b{
+	display: block;
+	text-align: left;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 18px;
+}
+.profile-box button{
+	margin-left: 10px;
+	margin-bottom: 10px;
+	background-color: grey;
+	width: 75px;
+	color: white;
+	height: 25px;
+	border-radius: 100px;
+	cursor:pointer;
+
+}
+
+/*product-details*/
+
+.product-item{
+	background: grey;
+	float: left;
+	display: block;
+	margin-left: 50px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 4px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding:5px;
+	width:auto;
+	height: auto;
+	
+}
+.product-item img{
+	
+	border-radius: 4px;
+	padding-top: 10px;
+	padding-left: 10px;
+	width:50%;
+	height: 500px;
+}
